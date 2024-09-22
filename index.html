@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash`s Recepie</title>
+
+    <!-- favicon -->
+     <link rel="icon" type="png" href="navlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="recepie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/navlogo.png" alt="logo image" height="54px">
+        </div>
+        <div class="para">
+            <p class="p1">Akash</p>
+            <p class="p2">'s</p>
+            <p class="p1">Recepie</p>
+        </div>
+        <div class="nav-search ">
+            <input type="text" placeholder="Search Recepie" class="search-bar">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass" id="search-iconn"></i></div>
+        </div>
+        
+
+    </nav>
+    <!-- hero section -->
+    <div class="hero-section">
+        <div class="hero-image">
+
+        </div>
+
+    </div>
+    <!-- find section -->
+    <div class="meal-result wrapper">
+        <h2>Your Search Result :</h2>
+        <div id="meal">
+
+
+        </div>
+    </div>
+    <div class="detail wrapper">
+        <button type="button" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+        <div class="meal-detail">
+
+        </div>
+    </div>
+
+    <!-- category section -->
+    <div class="category-name">
+        <a href="#" id="Dessert">Dessert</a>
+        <a href="#" id="Chicken">Chicken</a>
+        <a href="#" id="Vegetarian">Vegetarian</a>
+        <a href="#" id="Seafood">Seafood</a>
+        <a href="#" id="Miscellaneous">Others</a>
+    </div>
+    <div class="cat-result wrapper" id="Category">
+        <div class="catwrap"></div>
+        
+    </div>
+
+    <!-- explore section -->
+    <div class="main-section">
+        <h2>Latest Indian Recepies</h2>
+        <div class="main-section1" id="indian"></div>
+        <h2>Latest French Recepies</h2>
+        <div class="main-section2" id="italian"></div>
+        
+    </div>
+    <!-- contact us-->
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="left-container">
+            <div class="left-text">
+                <h2>Get in Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="e86ff71d-df46-41ba-b018-fc56304c9acd">
+            <input type="text" name="name" placeholder="Enter your name" class="left-input" required>
+            <input type="email" name="email" placeholder="Enter your Email" class="left-input" required>
+            <textarea name="textarea" id="textarea" placeholder="Your Massage" class="left-input" required></textarea>
+            <button class="submit-button">Submit</button>
+        </form>
+        <div class="right-container">
+            <img src="contact2.webp" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2024 Akash's Recipe</p>
+    </footer>
+    
+    <script src="recepie.js"></script>
+</body>
+
+</html>
