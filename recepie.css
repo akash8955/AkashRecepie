@@ -16,6 +16,7 @@
 /* for navbar */
 
 .navbar {
+    position: fixed;
     height: 4rem;
     width: 100%;
     display: flex;
@@ -581,6 +582,7 @@
     .showRecepie {
         width: 93%;
     }
+
 
 
 }
